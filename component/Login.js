@@ -2,6 +2,8 @@ import React from 'react';
 import axios from "axios";
 import '../css/login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './Navbar';
+import Footer from './Footer';
 
 class Login extends React.Component{
     state = {
@@ -40,8 +42,10 @@ class Login extends React.Component{
     };
     render(){
         return(
+          <>
+          <NavBar/>
           <div class="login">
-          <h2 class="active"> sign in </h2>
+          <h2 class="active"> <span>sign in </span></h2>
            <form>
              <span>username</span>
             <input type="text" class="text" name="username" placeholder="Enter your Name." onChange={this.saveInputs} />
@@ -59,6 +63,8 @@ class Login extends React.Component{
             <a href="#">Forgot Password?</a>
           </form>
         </div>
+        <Footer/>
+        </>
         );
     }
 }

@@ -1,11 +1,3 @@
-body,
-.signin {
-  background-color: #d3d3d3;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
 
 .login {
   position: relative;
@@ -13,6 +5,7 @@ body,
   width: 350px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 60px 60px;
   background: url(https://picsum.photos/id/1004/5616/3744) no-repeat   center center #505050;
   background-size: cover;
@@ -24,12 +17,13 @@ form {
 }
 
 .active {
-  border-bottom: 2px solid #e3e9f1;
   margin-left: 10px;
 }
-
-.nonactive {
-  color: rgba(255, 255, 255, 0.2);
+.active span{
+  color: rgb(243, 235, 235);
+  border-bottom: 2px solid #e3e9f1;
+  margin-left: 50px;
+  font-size: 30px;
 }
 
 h2 {
@@ -49,7 +43,6 @@ h2:first-child {
 span {
   text-transform: uppercase;
   font-size: 12px;
-  margin-left: -150px ;
   opacity: 0.4;
   color: #e3e9f1;
   display: inline-block;
@@ -101,7 +94,6 @@ input {
   -webkit-appearance: none;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 8px;
-  margin-left: -50px ;
   border-radius: 2px;
   display: inline-block;
   position: relative;

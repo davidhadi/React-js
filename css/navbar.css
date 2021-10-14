@@ -5,21 +5,25 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background: #0082e6;
+    background-color: rgb(38, 44, 44);
+    
     height: 80px;
     width: 100%;
   }
-  label.logo{
+  label.logo .adnetwork{
     color: white;
+    width: 190px;
+    height:auto;
     font-size: 35px;
-    margin-left: -5%;
-    line-height: 80px;
-    padding: 0 100px;
+    margin-top: -15px;
+    margin-left: 20px;
     font-weight: bold;
+  }
+  label.logo .adnetwork:hover{
+     background: none;
   }
   nav ul{
     float: right;
-    margin-left:  -10%;
     margin-right: 20px;
   }
   nav ul li{

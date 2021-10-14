@@ -1,0 +1,19 @@
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cyan;
+    width: 100%;
+    padding: 78px 0px;
+}
+.about img{
+    width: 250px;
+    height: 350;
+   margin-left: 0;
+}
+
+.about p{
+    width:550px;
+    color: azure;
+}
